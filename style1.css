@@ -1,0 +1,148 @@
+main {
+  border: solid blue;
+  border-radius: 50px;
+  margin: 40px auto;
+  max-width: 980px;
+  line-height: 1.5;
+  font-size: 25px;
+  color: #444;
+  padding: 0 10px;
+}
+
+header {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background-color: rgb(243, 242, 242);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(10, 83, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1:after {
+  transition: 0.3s;
+}
+
+h1:hover {
+  color: blue;
+}
+
+h1:hover::after {
+  width: 100%;
+}
+
+b {
+  color: indianred;
+}
+
+.board {
+  display: flex;
+  margin: 20px;
+}
+
+#board1 {
+  margin: 30px;
+}
+
+#board2 {
+  margin: 30px;
+}
+
+span {
+  margin: 70px;
+}
+
+.thebuttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 25px;
+  font-size: 25px;
+}
+
+.btn1 {
+  margin: 3%;
+  padding: 10px;
+  border: solid;
+  border-radius: 15px;
+  color: rgb(10, 90, 10);
+  cursor: pointer;
+}
+
+.btn1:hover {
+  color: rgb(131, 43, 21);
+  background-color: darkgrey;
+}
+
+.btn2 {
+  margin: 3%;
+  padding: 10px;
+  border: solid;
+  border-radius: 15px;
+  color: rgb(10, 90, 10);
+  cursor: pointer;
+}
+
+.btn2:hover {
+  color: rgb(131, 43, 21);
+  background-color: darkgrey;
+}
+
+b i u {
+  color: rgb(10, 83, 10);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: auto 10px;
+  padding: 1%;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: rgb(185, 109, 10);
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+  margin: 5px;
+}
+
+nav a:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(160, 12, 7);
+  height: 3px;
+  width: 00%;
+  bottom: -10px;
+  left: 0;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+footer p {
+  font-size: 25px;
+  text-align: center;
+}
+
+footer {
+  border: solid;
+  color: blue;
+}
